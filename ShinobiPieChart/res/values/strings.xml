@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ShinobiPieChart</string>
+    <string name="contract">CONTRACT VALUE</string>
+    <string name="taccount">TOTAL ACCOUNTS</string>
+    <string name="next">NEXT</string>
+    
+    <!-- Screen 2 strings -->
+    <string name="accounts">Accounts</string>
+    <string name="engagement">Engagement</string>
+    <string name="activeusers">Active users</string>
+
+</resources>

@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content"
+    android:id="@+id/rel_layout">
+     
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/week"
+        android:layout_below="@id/name"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"/>
+    
+    <LinearLayout 
+        android:layout_width="match_parent" 
+    	android:layout_height="wrap_content"
+    	android:id="@+id/lin_layout"
+    	android:layout_below="@+id/week"
+    	android:layout_marginTop="4dp"
+    	android:orientation="horizontal">
+    	
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/count"/>
+            
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/engagement"
+        android:paddingLeft="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/engagement" />  
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/value1"
+        android:paddingLeft="1dp"
+        android:layout_gravity="center_horizontal"  />      
+         <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/activeUsers"
+        android:paddingLeft="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/activeusers"/>         
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/value2"
+        android:paddingLeft="1dp"
+        android:layout_gravity="center_horizontal" />   
+        
+    </LinearLayout>
+ 
+    
+</RelativeLayout>
